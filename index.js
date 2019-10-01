@@ -3,38 +3,38 @@ function flame(z)
   switch(z)
     {
         case 1:document.querySelector('#friends').style.display = 'flex';
-                document.querySelector('.close').addEventListener('click',
-                function() {
-                    document.querySelector('.first').style.display = 'none';
-                });
+                // document.querySelector('.close').addEventListener('click',
+                // function() {
+                //     document.querySelector('.first').style.display = 'none';
+                // });
             break;
 
         case 2:document.querySelector('#love').style.display = 'flex';
-               document.querySelector('.close').addEventListener('click',
-                function() {
-                    document.querySelector('.first').style.display = 'none';
-                });
+            //    document.querySelector('.close').addEventListener('click',
+            //     function() {
+            //         document.querySelector('.first').style.display = 'none';
+            //     });
              break;
 
         case 3:document.querySelector('#affection').style.display = 'flex';
-                document.querySelector('.close').addEventListener('click',
-                function() {
-                    document.querySelector('.first').style.display = 'none';
-                });
+                // document.querySelector('.close').addEventListener('click',
+                // function() {
+                //     document.querySelector('.first').style.display = 'none';
+                // });
             break;
 
         case 4:document.querySelector('#weeding').style.display = 'flex';
-                document.querySelector('.close').addEventListener('click',
-                function() {
-                    document.querySelector('.first').style.display = 'none';
-                });
+                // document.querySelector('.close').addEventListener('click',
+                // function() {
+                //     document.querySelector('.first').style.display = 'none';
+                // });
             break;
 
         case 5:document.querySelector('#enemy').style.display = 'flex';
-                document.querySelector('.close').addEventListener('click',
-                function() {
-                    document.querySelector('.first').style.display = 'none';
-                });
+                // document.querySelector('.close').addEventListener('click',
+                // function() {
+                //     document.querySelector('.first').style.display = 'none';
+                // });
             break;
 
         default:alert("No Relation\n");
@@ -74,13 +74,26 @@ function a_new_func()
     }
 }
 
-// document.querySelector('button').addEventListener("click",
-// function() {
-//     document.querySelector('.first').style.display = 'flex';
-// });
 
 
-// document.querySelector('.close').addEventListener('click',
-// function() {
-//     document.querySelector('.first').style.display = 'none';
-// })
+// function a_new_func() 
+// {
+//     a = scrollY;
+//     if(a > 150)
+//     {
+//         document.querySelector('button').addEventListener("click",
+//         function() {
+//             document.querySelector('.first').style.display = 'flex';
+//         });
+
+
+//         document.querySelector('.close').addEventListener('click',
+//         function() {
+//             document.querySelector('.first').style.display = 'none';
+//         })
+//     }
+//     else
+//     {
+//         console.log(a);
+//     }
+// }
