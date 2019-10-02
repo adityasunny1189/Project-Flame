@@ -100,38 +100,38 @@
 //     }
 // }
 
-var name1 = document.getElementById('Name1').value;
-var name2 = document.getElementById('Name2').value;
-
-var x = name1.length;
-var y = name2.length;
-var z = x + y;
-var i = 0;
-var j = 0;
-for(i = 0 ; i < x ; i++)
-{
-    for(j = 0 ; j < y ; j++)
-    {
-        if(name1[i] === name2[j])
-        {
-            name1[i] = name2[j] = ' ';
-            z = z - 2;
-        }
-    }
-}
-if(z <= 5)
-    {
-        z = z;
-    }
-    
-else if(z > 5)
-    {
-        z = z % 5;
-    }
 for(var i = 0 ; i < z ; i++)
 {
     document.querySelector(".func").addEventListener("click" , function () 
     {
+        var name1 = document.getElementById('Name1').value;
+        var name2 = document.getElementById('Name2').value;
+
+        var x = name1.length;
+        var y = name2.length;
+        var z = x + y;
+        var i = 0;
+        var j = 0;
+        for(i = 0 ; i < x ; i++)
+        {
+            for(j = 0 ; j < y ; j++)
+            {
+                if(name1[i] === name2[j])
+                {
+                    name1[i] = name2[j] = ' ';
+                    z = z - 2;
+                }
+            }
+        }
+        if(z <= 5)
+            {
+                z = z;
+            }
+            
+        else if(z > 5)
+            {
+                z = z % 5;
+            }
         switch(z)
         {
             case 1:document.querySelector('#friends').style.display = 'flex';
