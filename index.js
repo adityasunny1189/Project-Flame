@@ -100,7 +100,7 @@
 //     }
 // }
 
-for(var i = 0 ; i < z ; i++)
+for(var i = 0 ; i < 5 ; i++)
 {
     document.querySelector(".func").addEventListener("click" , function () 
     {
